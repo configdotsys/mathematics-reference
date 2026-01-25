@@ -420,7 +420,7 @@ In control theory, eigenvalues correspond directly to system modes and stability
   - **Unstable**: At least one eigenvalue has a positive real part.
   - **Example**:
 ```math
-\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}$, eigenvalues \lambda = -1, -2, stable.
+\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}, eigenvalues \lambda = -1, -2, stable.
 ```
 ---
 
@@ -475,7 +475,7 @@ $$
 
 
 - **Gram-Schmidt Process**: Orthogonalize a set of vectors:
-  - Given $\{\mathbf{v}_1, \mathbf{v}_2\}$, set $\mathbf{u}_1 = \mathbf{v}_1$, $\mathbf{u}_2 = \mathbf{v}_2 - \text{proj}_{\mathbf{u}_1} \mathbf{v}_2$.
+  - Given $\{\mathbf{v}_1, \mathbf{v}_2\}$, set $\mathbf{u}_1 = \mathbf{v}_1$, $\mathbf{u}_2 = \mathbf{v}_2 -\text{proj}_{\mathbf{u}_1} \mathbf{v}_2$.
 - **Orthogonal Matrix**: $\mathbf{Q}^T \mathbf{Q} = \mathbf{I}$, preserves dot products.
 
 ---
