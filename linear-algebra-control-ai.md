@@ -335,27 +335,23 @@ This form appears throughout control theory when solving for:
 
 # Gaussian Elimination
 
-Gaussian elimination transforms a system into row-echelon form using elementary row operations.
-The objective is not conceptual insight, but reliable solution extraction.
-A system of linear equations can be written as Ax=b, where A∈R^{m×n}, x∈R^n, and b∈R^m.
+Gaussian elimination transforms a system into row-echelon form using elementary row operations. The objective is not conceptual insight, but reliable solution extraction. A system of linear equations can be written as **Ax = b**, where **A** ∈ ℝ<sup>m×n</sup>, **x** ∈ ℝ<sup>n</sup>, and **b** ∈ ℝ<sup>m</sup>.
 
-* Gaussian Elimination: Transform A into row echelon form using elementary row operations, then solve via back-substitution.
+- **Gaussian Elimination**: Transform **A** into row echelon form using elementary row operations, then solve via back-substitution.
 
-  * Example: Solve 
+  - **Example**: Solve
 
-```markdown
-$$
-\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
-\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
-=
-\begin{bmatrix} 5 \\ 11 \end{bmatrix}
-\quad \to \quad
-\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}
-\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
-=
-\begin{bmatrix} 5 \\ -4 \end{bmatrix}
-$$
-```
+    $$
+    \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix}
+    \begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
+    =
+    \begin{bmatrix} 5 \\\\ 11 \end{bmatrix}
+    \quad \to \quad
+    \begin{bmatrix} 1 & 2 \\\\ 0 & -2 \end{bmatrix}
+    \begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
+    =
+    \begin{bmatrix} 5 \\\\ -4 \end{bmatrix}
+    $$
 
 #### Rank
 
