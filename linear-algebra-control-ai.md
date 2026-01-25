@@ -348,8 +348,27 @@ A system of linear equations can be written as $\mathbf{A}\mathbf{x} = \mathbf{b
 Solve
   
 $$
-\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 5 \\ 11\end{bmatrix}
+\left[
+\begin{array}{cc}
+1 & 2 \\
+3 & 4
+\end{array}
+\right]
+\left[
+\begin{array}{c}
+x_1 \\
+x_2
+\end{array}
+\right]
+=
+\left[
+\begin{array}{c}
+5 \\
+11
+\end{array}
+\right]
 $$
+
 
 Row reduce to
 
