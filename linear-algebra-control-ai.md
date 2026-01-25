@@ -1,15 +1,15 @@
 # Linear Algebra for Control Theory and AI: A Comprehensive Reference
 
-This document is a personal technical reference for linear algebra concepts used in control theory, estimation, and modern AI methods.
+*This document is a personal technical reference for linear algebra concepts used in control theory, estimation, and modern AI methods.*
 
-The purpose is not to re-teach linear algebra from first principles, nor to provide formal mathematical proofs. Instead, the goal is to preserve **working understanding** — the definitions, identities, and derivations that repeatedly appear when reasoning about:
+*The purpose is not to re-teach linear algebra from first principles, nor to provide formal mathematical proofs. Instead, the goal is to preserve **working understanding** — the definitions, identities, and derivations that repeatedly appear when reasoning about:*
 
-* state-space models
-* system modes and eigenvalues
-* controllability and observability
-* estimation and covariance propagation
-* optimization and least-squares problems
-* dimensionality reduction and learning algorithms
+*-state-space models*
+*-system modes and eigenvalues*
+*-controllability and observability*
+*-estimation and covariance propagation*
+*-optimization and least-squares problems*
+*-dimensionality reduction and learning algorithms*
 
 This document exists so that future-me can re-enter the mathematics quickly, reconstruct reasoning steps, and reconnect equations to physical and algorithmic meaning.
 
