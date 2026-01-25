@@ -344,6 +344,18 @@ A system of linear equations can be written as $\mathbf{A}\mathbf{x} = \mathbf{b
 ```math
 \begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 5 \\ -4 \end{bmatrix}
 ```
+
+### Gaussian Elimination
+
+Solve by row reduction followed by back-substitution.
+
+Example:
+
+    [1 2][x1] = [ 5]
+    [3 4][x2]   [11]
+
+Row-reduce → solve.
+
 - Solution: $x_2 = 2$, $x_1 = 1$.
 ---
 
