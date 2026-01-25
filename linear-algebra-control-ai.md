@@ -418,10 +418,8 @@ In control theory, eigenvalues correspond directly to system modes and stability
 - For an LTI system, stability depends on the eigenvalues of $\mathbf{A}$:
   - **Asymptotically stable**: All eigenvalues have negative real parts.
   - **Unstable**: At least one eigenvalue has a positive real part.
-  - **Example**:
-```math
-\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}, \text{ eigenvalues } \lambda = -1, -2, \text{ stable.}
-```
+  - **Example**: $\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}$, eigenvalues $\lambda = -1, -2$, stable.
+
 ---
 
 #### Diagonalization
