@@ -1,5 +1,9 @@
 # Linear Algebra for Control Theory and AI: A Comprehensive Reference
 
+*Author: Percival Segui*
+
+*Prepared as an independent technical reference.*
+
 *This document is a personal technical reference for linear algebra concepts used in control theory, estimation, and modern AI methods.*
 
 *The purpose is not to re-teach linear algebra from first principles, nor to provide formal mathematical proofs. Instead, the goal is to preserve **working understanding** — the definitions, identities, and derivations that repeatedly appear when reasoning about:*
