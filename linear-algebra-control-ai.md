@@ -407,12 +407,9 @@ Eigenvalues and eigenvectors describe intrinsic system behavior.
 
 For a matrix $\mathbf{A}$:
 
-
-
 $$
 \mathbf{A}\mathbf{v} = \lambda \mathbf{v}
 $$
-
 
 This equation identifies directions that remain aligned under the transformation $\mathbf{A}$.
 
@@ -423,7 +420,7 @@ In control theory, eigenvalues correspond directly to system modes and stability
   - **Unstable**: At least one eigenvalue has a positive real part.
   - **Example**:
 ```math
-$\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}$, eigenvalues $\lambda = -1, -2$, stable.
+\mathbf{A} = \begin{bmatrix} -1 & 0 \\ 0 & -2 \end{bmatrix}$, eigenvalues \lambda = -1, -2, stable.
 ```
 ---
 
