@@ -56,23 +56,17 @@ Matrices represent how these quantities interact.
 
 A vector in $\mathbb{R}^n$ is written as:
 
-
-
-$$
+```math
 \mathbf{v} = \begin{bmatrix}v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix}
-$$
-
+```
 
 A matrix with $m$ rows and $n$ columns is written as:
 
-
-
-$$
+```math
 \mathbf{A} = \begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\
 a_{m1} & a_{m2} & \cdots & a_{mn}\end{bmatrix}
-$$
-
+```
 
 Matrices act on vectors to produce new vectors, forming the basis of linear system modeling.
 
@@ -84,13 +78,10 @@ Matrices act on vectors to produce new vectors, forming the basis of linear syst
 
 For vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$:
 
-
-
-$$
+```math
 \mathbf{u} + \mathbf{v} = \begin{bmatrix}u_1 + v_1 \\ u_2 + v_2 \\
 \vdots \\ u_n + v_n\end{bmatrix}
-$$
-
+```
 
 Vector addition corresponds to component-wise accumulation.
 
@@ -102,12 +93,9 @@ This operation appears frequently when combining state contributions, disturbanc
 
 For a scalar $c \in \mathbb{R}$:
 
-
-
-$$
+```math
 c\mathbf{v} = \begin{bmatrix} cv_1 \\ cv_2 \\ \vdots \\ cv_n\end{bmatrix}
-$$
-
+```
 
 Scalar multiplication represents uniform scaling of a vector and is fundamental to linear superposition.
 
@@ -127,30 +115,21 @@ Matrix multiplication defines how linear transformations compose.
 
 Let:
 
-
-
-$$
+```math
 \mathbf{A} \in \mathbb{R}^{m \times p}, \quad \mathbf{B} \in \mathbb{R}^{p \times n}
-$$
-
+```
 
 Then:
 
-
-
-$$
+```math
 \mathbf{C} = \mathbf{A}\mathbf{B}
-$$
-
+```
 
 with elements:
 
-
-
-$$
+```math
 c_{ij} = \sum_{k=1}^{p} a_{ik} b_{kj}
-$$
-
+```
 
 This operation corresponds to applying transformation $B$ first, followed by transformation $A$.
 
@@ -170,12 +149,10 @@ The step-by-step arithmetic is intentionally preserved so that the mechanics of 
 
 Let
 
-
 ```math
 A =\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{bmatrix},\quad
 B =\begin{bmatrix}9 & 8 & 7 \\ 6 & 5 & 4 \\ 3 & 2 & 1\end{bmatrix}
 ```
-
 
 ---
 
@@ -183,12 +160,9 @@ B =\begin{bmatrix}9 & 8 & 7 \\ 6 & 5 & 4 \\ 3 & 2 & 1\end{bmatrix}
 
 If $C = A \times B$, then each element $c_{ij}$ in $C$ is calculated as:
 
-
-
-$$
+```math
 c_{ij} = \sum_{k=1}^{3} a_{ik} \cdot b_{kj}
-$$
-
+```
 
 That is, **row $i$ of $A$ dot column $j$ of $B$.**
 
@@ -198,26 +172,17 @@ That is, **row $i$ of $A$ dot column $j$ of $B$.**
 
 ###### First row of $C$
 
-
-
-$$
+```math
 c_{11} = (1)(9) + (2)(6) + (3)(3) = 9 + 12 + 9 = 30
-$$
+```
 
-
-
-
-$$
+```math
 c_{12} = (1)(8) + (2)(5) + (3)(2) = 8 + 10 + 6 = 24
-$$
+```
 
-
-
-
-$$
+```math
 c_{13} = (1)(7) + (2)(4) + (3)(1) = 7 + 8 + 3 = 18
-$$
-
+```
 
 So first row is: $[30 \quad 24 \quad 18]$.
 
@@ -225,26 +190,17 @@ So first row is: $[30 \quad 24 \quad 18]$.
 
 ###### Second row of $C$
 
-
-
-$$
+```math
 c_{21} = (4)(9) + (5)(6) + (6)(3) = 36 + 30 + 18 = 84
-$$
+```
 
-
-
-
-$$
+```math
 c_{22} = (4)(8) + (5)(5) + (6)(2) = 32 + 25 + 12 = 69
-$$
+```
 
-
-
-
-$$
+```math
 c_{23} = (4)(7) + (5)(4) + (6)(1) = 28 + 20 + 6 = 54
-$$
-
+```
 
 So second row is: $[84 \quad 69 \quad 54]$.
 
@@ -252,26 +208,17 @@ So second row is: $[84 \quad 69 \quad 54]$.
 
 ###### Third row of $C$
 
-
-
-$$
+```math
 c_{31} = (7)(9) + (8)(6) + (9)(3) = 63 + 48 + 27 = 138
-$$
+```
 
-
-
-
-$$
+```math
 c_{32} = (7)(8) + (8)(5) + (9)(2) = 56 + 40 + 18 = 114
-$$
+```
 
-
-
-
-$$
+```math
 c_{33} = (7)(7) + (8)(4) + (9)(1) = 49 + 32 + 9 = 90
-$$
-
+```
 
 So third row is: $[138 \quad 114 \quad 90]$.
 
@@ -279,12 +226,9 @@ So third row is: $[138 \quad 114 \quad 90]$.
 
 ##### Step 4: Final result
 
-
-
-$$
+```math
 C = A \times B =\begin{bmatrix}30 & 24 & 18 \\ 84 & 69 & 54 \\ 138 & 114 & 90\end{bmatrix}
-$$
-
+```
 
 ---
 
@@ -292,12 +236,9 @@ $$
 
 The transpose operation exchanges rows and columns:
 
-
-
-$$
+```math
 (\mathbf{A}^T)_{ij} = a_{ji}
-$$
-
+```
 
 Several special matrix types appear repeatedly in system analysis:
 
@@ -314,12 +255,9 @@ Orthogonal matrices are especially important in coordinate transformations, moda
 
 A system of linear equations is written compactly as:
 
-
-
-$$
+```math
 \mathbf{A}\mathbf{x} = \mathbf{b}
-$$
-
+```
 
 This form appears throughout control theory when solving for:
 
@@ -389,12 +327,9 @@ A zero determinant indicates loss of dimensionality and non-invertibility.
 
 If $\det(\mathbf{A}) \neq 0$, an inverse exists such that:
 
-
-
-$$
+```math
 \mathbf{A}^{-1}\mathbf{A} = \mathbf{I}
-$$
-
+```
 
 In practice, explicit inversion is often avoided numerically, but the concept remains central for theoretical reasoning.
 
@@ -406,9 +341,9 @@ Eigenvalues and eigenvectors describe intrinsic system behavior.
 
 For a matrix $\mathbf{A}$:
 
-$$
+```math
 \mathbf{A}\mathbf{v} = \lambda \mathbf{v}
-$$
+```
 
 This equation identifies directions that remain aligned under the transformation $\mathbf{A}$.
 
@@ -428,12 +363,9 @@ In control theory, eigenvalues correspond directly to system modes and stability
 
 If a full set of independent eigenvectors exists:
 
-
-
-$$
+```math
 \mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}
-$$
-
+```
 
 Diagonalization separates coupled dynamics into independent modal components.
 
@@ -456,23 +388,17 @@ Dot products, norms, and projections should be treated as geometric tools, not j
 
 - **Dot Product**: For $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$:
 
-
-
-$$
+```math
 \mathbf{u} \cdot \mathbf{v} = \sum_{i=1}^n u_i v_i
-$$
-
+```
 
 - **Orthogonal Vectors**: If $\mathbf{u} \cdot \mathbf{v} = 0$.
 - **Norm**: $\|\mathbf{v}\| = \sqrt{\mathbf{v} \cdot \mathbf{v}}$.
 - **Orthogonal Projection**: Projection of $\mathbf{v}$ onto $\mathbf{u}$:
 
-
-
-$$
+```math
 \text{proj}_{\mathbf{u}} \mathbf{v} = \left( \frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{u} \cdot \mathbf{u}} \right)\mathbf{u}
-$$
-
+```
 
 - **Gram-Schmidt Process**: Orthogonalize a set of vectors:
   - Given $\{\mathbf{v}\_1, \mathbf{v}\_2\}$, set $\mathbf{u}\_1 = \mathbf{v}\_1$, $\mathbf{u}\_2 = \mathbf{v}\_2 -\text{proj}\_{\mathbf{u}\_1} \mathbf{v}\_2$.
@@ -506,19 +432,13 @@ Unlike Part 1, where the emphasis is on mathematical structure, the emphasis her
 
 A continuous-time linear time-invariant (LTI) system can be written as:
 
-
-
-$$
+```math
 \dot{\mathbf{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t)
-$$
+```
 
-
-
-
-$$
+```math
 \mathbf{y}(t) = \mathbf{C}\mathbf{x}(t) + \mathbf{D}\mathbf{u}(t)
-$$
-
+```
 
 where:
 
@@ -533,7 +453,7 @@ and:
 * $\mathbf{C}$ maps state to measured outputs
 * $\mathbf{D}$ represents direct feedthrough
 
-The matrix $\mathbf{A}$ plays a central role: it defines the system’s intrinsic behavior in the absence of input.
+The matrix $\mathbf{A}$ plays a central role: it defines the system's intrinsic behavior in the absence of input.
 
 ---
 
@@ -541,12 +461,9 @@ The matrix $\mathbf{A}$ plays a central role: it defines the system’s intrinsi
 
 The general solution is:
 
-
-
-$$
+```math
 \mathbf{x}(t) = e^{\mathbf{A}t}\mathbf{x}(0) +\int_0^t e^{\mathbf{A}(t-\tau)}\mathbf{B}\mathbf{u}(\tau)\, d\tau
-$$
-
+```
 
 This expression separates system behavior into:
 
@@ -571,13 +488,10 @@ A system is controllable if it is possible to drive the state from any initial c
 
 The controllability matrix is:
 
-
-
-$$
+```math
 \mathbf{C} = \begin{bmatrix}\mathbf{B} & \mathbf{A}\mathbf{B} &
 \cdots & \mathbf{A}^{n-1}\mathbf{B}\end{bmatrix}
-$$
-
+```
 
 If this matrix has full row rank, the system is controllable.
 
@@ -593,12 +507,9 @@ A system is observable if its internal state can be reconstructed from output me
 
 The observability matrix is:
 
-
-
-$$
+```math
 \mathbf{O} =\begin{bmatrix}\mathbf{C} \\ \mathbf{C}\mathbf{A} \\ \vdots \\ \mathbf{C}\mathbf{A}^{n-1}\end{bmatrix}
-$$
-
+```
 
 If this matrix has full column rank, the system is observable.
 
@@ -628,12 +539,9 @@ The Linear Quadratic Regulator problem formalizes optimal feedback control as a 
 
 The cost function is:
 
-
-
-$$
+```math
 J = \int_0^\infty\left(\mathbf{x}^T\mathbf{Q}\mathbf{x}+\mathbf{u}^T\mathbf{R}\mathbf{u}\right)dt
-$$
-
+```
 
 where:
 
@@ -642,30 +550,21 @@ where:
 
 The optimal control law takes the form:
 
-
-
-$$
+```math
 \mathbf{u} = -\mathbf{K}\mathbf{x}
-$$
-
+```
 
 with gain:
 
-
-
-$$
+```math
 \mathbf{K} = \mathbf{R}^{-1}\mathbf{B}^T\mathbf{P}
-$$
-
+```
 
 The matrix $\mathbf{P}$ satisfies the continuous-time algebraic Riccati equation:
 
-
-
-$$
+```math
 \mathbf{A}^T\mathbf{P} + \mathbf{P}\mathbf{A}- \mathbf{P}\mathbf{B}\mathbf{R}^{-1}\mathbf{B}^T\mathbf{P} +\mathbf{Q}=\mathbf{0}
-$$
-
+```
 
 The Riccati equation itself is a nonlinear matrix equation whose structure arises entirely from linear algebraic identities.
 
@@ -681,44 +580,29 @@ It relies on covariance propagation, which is purely a matrix operation.
 
 ### Prediction
 
-
-
-$$
+```math
 \hat{\mathbf{x}}_{k|k-1} =\mathbf{A}\hat{\mathbf{x}}_{k-1|k-1}+\mathbf{B}\mathbf{u}_{k-1}
-$$
+```
 
-
-
-
-$$
+```math
 \mathbf{P}_{k|k-1} = \mathbf{A}\mathbf{P}_{k-1|k-1}\mathbf{A}^T+\mathbf{Q}
-$$
-
+```
 
 ---
 
 ### Update
 
-
-
-$$
+```math
 \mathbf{K}_k =\mathbf{P}_{k|k-1}\mathbf{C}^T\left(\mathbf{C}\mathbf{P}_{k|k-1}\mathbf{C}^T+\mathbf{R}\right)^{-1}
-$$
+```
 
-
-
-
-$$
+```math
 \hat{\mathbf{x}}_{k|k} =\hat{\mathbf{x}}_{k|k-1}+\mathbf{K}_k\left(\mathbf{y}_k-\mathbf{C}\hat{\mathbf{x}}_{k|k-1}\right)
-$$
+```
 
-
-
-
-$$
+```math
 \mathbf{P}_{k|k} =(\mathbf{I} - \mathbf{K}_k\mathbf{C})\mathbf{P}_{k|k-1}
-$$
-
+```
 
 Each step is a direct application of linear algebraic transformations.
 
@@ -746,12 +630,9 @@ Seen this way, AI techniques are not conceptually separate from control theory �
 
 Any matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$ can be decomposed as:
 
-
-
-$$
+```math
 \mathbf{A}=\mathbf{U}\mathbf{\Sigma}\mathbf{V}^T
-$$
-
+```
 
 where:
 
@@ -784,30 +665,21 @@ Least squares problems arise when a system of equations has no exact solution.
 
 Given:
 
-
-
-$$
+```math
 \mathbf{A}\mathbf{x} = \mathbf{b}
-$$
-
+```
 
 with more equations than unknowns, the objective becomes minimizing the residual:
 
-
-
-$$
+```math
 \|\mathbf{A}\mathbf{x} - \mathbf{b}\|^2
-$$
-
+```
 
 The solution is:
 
-
-
-$$
+```math
 \mathbf{x}=(\mathbf{A}^T\mathbf{A})^{-1}\mathbf{A}^T\mathbf{b}
-$$
-
+```
 
 This expression results from projecting $\mathbf{b}$ onto the column space of $\mathbf{A}$.
 
@@ -819,12 +691,9 @@ Least squares is the foundation of parameter estimation, regression, and system 
 
 A matrix $\mathbf{A}$ is positive definite if:
 
-
-
-$$
+```math
 \mathbf{x}^T\mathbf{A}\mathbf{x} > 0\quad \text{for all } \mathbf{x} \neq 0
-$$
-
+```
 
 Such matrices possess several important properties:
 
@@ -848,12 +717,9 @@ Matrix calculus provides tools for computing derivatives of scalar functions wit
 
 A common identity is:
 
-
-
-$$
+```math
 \frac{\partial}{\partial \mathbf{x}}(\mathbf{x}^T\mathbf{A}\mathbf{x})=(\mathbf{A} + \mathbf{A}^T)\mathbf{x}
-$$
-
+```
 
 These identities underpin gradient-based optimization algorithms.
 
@@ -867,21 +733,15 @@ Principal Component Analysis performs dimensionality reduction by identifying di
 
 The covariance matrix is defined as:
 
-
-
-$$
+```math
 \mathbf{C}=\frac{1}{n-1}\mathbf{X}^T\mathbf{X}
-$$
-
+```
 
 Eigen decomposition yields:
 
-
-
-$$
+```math
 \mathbf{C}=\mathbf{P}\mathbf{D}\mathbf{P}^T
-$$
-
+```
 
 The eigenvectors corresponding to the largest eigenvalues define dominant data directions.
 
@@ -895,12 +755,9 @@ This procedure is mathematically equivalent to selecting dominant singular vecto
 
 A neural network layer can be written compactly as:
 
-
-
-$$
+```math
 \mathbf{y}=f(\mathbf{W}\mathbf{x} + \mathbf{b})
-$$
-
+```
 
 where:
 
@@ -938,12 +795,9 @@ Graphs are represented algebraically through matrices.
 * **Degree matrix** encodes node degree
 * **Laplacian matrix**:
 
-
-
-$$
+```math
 \mathbf{L} = \mathbf{D} - \mathbf{A}
-$$
-
+```
 
 The Laplacian plays a central role in:
 
