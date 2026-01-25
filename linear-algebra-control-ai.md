@@ -335,7 +335,7 @@ This form appears throughout control theory when solving for:
 
 # Gaussian Elimination
 
-Gaussian elimination transforms a system into **row-echelon form** using elementary row operations.  
+Gaussian elimination transforms a system into row-echelon form using elementary row operations.  
 The goal is not conceptual insight, but reliable solution extraction.
 
 A system of linear equations can be written as **Ax = b**, where  
@@ -365,7 +365,7 @@ x_2
 \end{bmatrix}
 $$
 
-**Row reduce** to:
+Row reduce to:
 
 $$
 \begin{bmatrix}
@@ -386,7 +386,7 @@ $$
 **Back-substitution**:
 
 From row 2:  
--2 x₂ = -4  
+−2x₂ = −4  
 ⇒ x₂ = 2
 
 From row 1:  
