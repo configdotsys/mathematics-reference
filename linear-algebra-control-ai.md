@@ -347,29 +347,10 @@ A system of linear equations can be written as $\mathbf{A}\mathbf{x} = \mathbf{b
 
 Solve
   
-$$
-\begin{array}{c}
-\left[
-\begin{array}{cc}
-1 & 2 \\
-3 & 4
-\end{array}
-\right]
-\left[
-\begin{array}{c}
-x_1 \\
-x_2
-\end{array}
-\right]
+$$\left[\begin{array}{cc}1&2\\3&4\end{array}\right]
+\left[\begin{array}{c}x_1\\x_2\end{array}\right]
 =
-\left[
-\begin{array}{c}
-5 \\
-11
-\end{array}
-\right]
-\end{array}
-$$
+\left[\begin{array}{c}5\\11\end{array}\right]$$
 
 Row reduce to
 
