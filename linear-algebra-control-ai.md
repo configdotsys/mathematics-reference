@@ -62,7 +62,6 @@ A vector in $\mathbb{R}^n$ is written as:
 
 $$
 \mathbf{v} = \begin{bmatrix}v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix}
-
 $$
 
 
@@ -74,7 +73,6 @@ $$
 \mathbf{A} = \begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\
 a_{m1} & a_{m2} & \cdots & a_{mn}\end{bmatrix}
-
 $$
 
 
@@ -93,7 +91,6 @@ For vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$:
 $$
 \mathbf{u} + \mathbf{v} = \begin{bmatrix}u_1 + v_1 \\ u_2 + v_2 \\
 \vdots \\ u_n + v_n\end{bmatrix}
-
 $$
 
 
@@ -111,7 +108,6 @@ For a scalar $c \in \mathbb{R}$:
 
 $$
 c\mathbf{v} = \begin{bmatrix} cv_1 \\ cv_2 \\ \vdots \\ cv_n\end{bmatrix}
-
 $$
 
 
