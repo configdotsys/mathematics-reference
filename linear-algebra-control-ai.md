@@ -343,23 +343,20 @@ A system of linear equations can be written as Ax=b, where A∈R^{m×n}, x∈R^n
 
   * Example: Solve 
 
+```markdown
 $$
-\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix}
-\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
-= 
-\begin{bmatrix} 5 \\\\ 11 \end{bmatrix}.
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+=
+\begin{bmatrix} 5 \\ 11 \end{bmatrix}
+\quad \to \quad
+\begin{bmatrix} 1 & 2 \\ 0 & -2 \end{bmatrix}
+\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+=
+\begin{bmatrix} 5 \\ -4 \end{bmatrix}
 $$
+```
 
-    * Row reduce to 
-
-$$
-\begin{bmatrix} 1 & 2 \\\\ 0 & -2 \end{bmatrix}
-\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
-= 
-\begin{bmatrix} 5 \\\\ -4 \end{bmatrix}.
-$$
-
-    * Solution: x_2=2, x_1=1.
 #### Rank
 
 Matrix rank determines the number of independent equations or directions represented.
