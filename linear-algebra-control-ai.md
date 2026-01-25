@@ -23,7 +23,7 @@ The purpose is not to re-teach linear algebra from first principles, nor to prov
 
 ---
 
-## Document Structure
+### Document Structure
 
 The material is organized into three parts:
 
