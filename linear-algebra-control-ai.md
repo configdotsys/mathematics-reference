@@ -341,17 +341,17 @@ Gaussian elimination transforms a system into row-echelon form using elementary 
 
   - **Example**: Solve
 
-    $$
-    \begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix}
-    \begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
-    =
-    \begin{bmatrix} 5 \\\\ 11 \end{bmatrix}
-    \quad \to \quad
-    \begin{bmatrix} 1 & 2 \\\\ 0 & -2 \end{bmatrix}
-    \begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
-    =
-    \begin{bmatrix} 5 \\\\ -4 \end{bmatrix}
-    $$
+$$
+\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \end{bmatrix}
+\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
+=
+\begin{bmatrix} 5 \\\\ 11 \end{bmatrix}
+\quad \to \quad
+\begin{bmatrix} 1 & 2 \\\\ 0 & -2 \end{bmatrix}
+\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}
+=
+\begin{bmatrix} 5 \\\\ -4 \end{bmatrix}
+$$
 
 #### Rank
 
