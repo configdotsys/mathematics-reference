@@ -476,7 +476,7 @@ $$
 
 
 - **Gram-Schmidt Process**: Orthogonalize a set of vectors:
-  - Given $\{\mathbf{v}_1, \mathbf{v}_2\}$, set $\mathbf{u}_1 = \mathbf{v}_1$, $\mathbf{u}_2 = \mathbf{v}_2 -\text{proj}_{\mathbf{u}_1} \mathbf{v}_2$.
+  - Given $\{\mathbf{v}\_1, \mathbf{v}\_2\}$, set $\mathbf{u}\_1 = \mathbf{v}\_1$, $\mathbf{u}\_2 = \mathbf{v}\_2 -\text{proj}\_{\mathbf{u}\_1} \mathbf{v}\_2$.
 - **Orthogonal Matrix**: $\mathbf{Q}^T \mathbf{Q} = \mathbf{I}$, preserves dot products.
 
 ---
