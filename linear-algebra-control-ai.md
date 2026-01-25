@@ -348,6 +348,7 @@ A system of linear equations can be written as $\mathbf{A}\mathbf{x} = \mathbf{b
 Solve
   
 $$
+\begin{array}{c}
 \left[
 \begin{array}{cc}
 1 & 2 \\
@@ -367,8 +368,8 @@ x_2
 11
 \end{array}
 \right]
+\end{array}
 $$
-
 
 Row reduce to
 
