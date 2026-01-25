@@ -11,9 +11,7 @@
 *-optimization and least-squares problems*
 *-dimensionality reduction and learning algorithms*
 
-This document exists so that future-me can re-enter the mathematics quickly, reconstruct reasoning steps, and reconnect equations to physical and algorithmic meaning.
-
-Where appropriate, intermediate steps are shown explicitly, even when they may appear redundant, because the objective is **recoverability of understanding**, not conciseness.
+*Where appropriate, intermediate steps are shown explicitly, even when they may appear redundant, because the objective is **recoverability of understanding**, not conciseness.*
 
 ---
 
@@ -973,8 +971,8 @@ By preserving explicit derivations and structural interpretations, this referenc
 
 ---
 
-### Final note to future-self
+### Final Note 
 
-If this document feels dense on re-reading, that is expected.
+*If this document feels dense on re-reading, that is expected.*
 
-It is meant to serve as a **map**, not a lesson — a place to reconnect equations to meaning before diving back into detailed derivations elsewhere.
+*It is meant to serve as a **map**, not a lesson — a place to reconnect equations to meaning before diving back into detailed derivations elsewhere.*
