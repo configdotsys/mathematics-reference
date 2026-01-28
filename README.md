@@ -1,4 +1,4 @@
-### Math Notes and References
+# Math Notes and References
 
 This repository contains selected technical reference notes compiled as a working reference for applied mathematics concepts used in engineering and technical analysis.
 
